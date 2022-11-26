@@ -12,5 +12,5 @@ jobs:
     - name: Checkout main
       uses: actions/checkout@v2
 
-    - name: Checkout main
+    - name: Deploy
       run: echo "deployed"

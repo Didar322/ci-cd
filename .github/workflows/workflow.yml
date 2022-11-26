@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - production
+      - main
 
 jobs:
   deploy:
@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - name: Checkout production
+    - name: Checkout main
       uses: actions/checkout@v2
 
     - name: Deploy
